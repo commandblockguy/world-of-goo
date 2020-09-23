@@ -1,0 +1,7 @@
+bin/
+obj/
+src/gfx/*.h
+src/gfx/*.c
+goo*.png
+.idea
+cmake-*

@@ -1,0 +1,18 @@
+# todo: use an actual palette
+#palettes:
+#  - name: mypalette
+#    images: automatic
+
+converts:
+  - name: myimages
+    palette: xlibc #mypalette
+    images:
+      - common.png
+
+outputs:
+  - type: c
+    include-file: gfx.h
+#    palettes:
+#      - mypalette
+    converts:
+      - myimages
